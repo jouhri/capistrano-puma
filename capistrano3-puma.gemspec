@@ -21,7 +21,8 @@ Gem::Specification.new do |spec|
   # spec.add_dependency 'capistrano', '~> 3.7'
   spec.add_dependency 'capistrano', '~> 2.15.4'
   spec.add_dependency 'capistrano-bundler'
-  spec.add_dependency 'puma' , '~> 4.0'
+  # spec.add_dependency 'puma' , '~> 4.0'
+  spec.add_dependency 'puma' , '~> 3.4.0'
   spec.post_install_message = %q{
     All plugins need to be explicitly installed with install_plugin.
     Please see README.md
