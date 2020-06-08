@@ -1,4 +1,4 @@
-require 'capistrano/bundler'
+# require 'capistrano/bundler'
 require "capistrano/plugin"
 
 module Capistrano
